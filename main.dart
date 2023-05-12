@@ -13,7 +13,7 @@ class MyApps extends StatelessWidget {
       theme: ThemeData(appBarTheme: AppBarTheme(color: Colors.white)),
       debugShowCheckedModeBanner: false,
       home: MyHomePages(),
-      title: 'UTS Muhammad Ramdani',
+      title: 'UTS Briyan Anggara Putra',
     );
   }
 }
@@ -29,7 +29,7 @@ class _MyHomePagesState extends State<MyHomePages> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(246, 5, 238, 207),
+        backgroundColor: Color.fromARGB(246, 238, 40, 5),
         body: Column(
           children: [
             Container(
